@@ -1,1 +1,0 @@
-# iOS build files will be here after running react-native init
