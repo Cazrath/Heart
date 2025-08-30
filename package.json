@@ -1,0 +1,14 @@
+{
+  "name": "spotify-offline-starter-all",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "concurrently \"cd server && npm run dev\" \"cd frontend && npm run dev\"",
+    "electron": "ELECTRON_DEV=1 electron ."
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0",
+    "electron": "^26.0.0"
+  }
+}
